@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "outDir": "dist",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": false,
+        "sourceMap": true,
+        "target": "ES2019",
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "jsx":"react",
+        "esModuleInterop": true,
+        "strict": true,
+        "typeRoots": [
+            "node_modules/@types",
+            "src"
+          ],
+        "lib":[
+            "DOM",
+            "ES2019"
+        ]
+    },
+    "include": [
+        "src/**/*"
+    ]
+}

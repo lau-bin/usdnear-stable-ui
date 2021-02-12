@@ -1,0 +1,41 @@
+.header{
+    position: sticky;
+    background-color: rgb(226, 226, 226);
+    vertical-align: bottom;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: space-between;
+}
+.title{
+    padding-left:15px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.menuItem{
+    border-radius: 20px;
+    border: 1px solid rgb(95, 99, 95);
+    padding: 3px;
+    float: right;
+}
+.menuItem .connected{
+    border-color: (54, 238, 47);
+}
+.background{
+    background-color: whitesmoke;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.pageTitle{
+    font-size: 2rem;
+    color: gray;
+    text-align: center;
+    margin-bottom: 0;
+}
